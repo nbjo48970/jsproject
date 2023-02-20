@@ -83,7 +83,11 @@ body{
   grid-gap: 3rem;
   text-decoration: none;
   list-style: none;
-  justify-content: center;
+}
+
+.main-navigation {
+  text-decoration: none;
+  list-style: none;
 }
 
 .main-header-inner {
@@ -94,15 +98,17 @@ body{
   padding-right: 6%;
   padding-left: 6%;
   justify-content: space-between;
+  align-items: center;
 
 }
 
 .nav-list a {
   list-style: none;
+  text-decoration: none;
   justify-content: space-between;
-  font-family: var(--ff-body);
-  font-size: var(--fs-sm0l);
-  color: var(--clr-white);
+  font-family: "brandon-grotesque", sans-serif;
+  font-size: .8125rem;
+  color: #504139;
 }
 
 .logo {
@@ -137,6 +143,7 @@ section{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding-bottom: 30px;
 }
 
 .products{
@@ -149,6 +156,50 @@ section{
 
 .products img{
   height: 321px;
+}
+
+.inspiration{
+  background-color: #fffef8;
+  color: rgb(80, 65, 57);
+  font-family: "canada-type-gibson", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.inspiration img{
+  height: 210px;
+}
+
+.inspiration p{
+  text-align: center;
+  font-size: 12px;
+  font-family: "brandon-grotesque", sans-serif;
+  padding-bottom: 10px;
+  color: rgb(80, 65, 57);
+}
+
+#inspi p{
+  text-align: center;
+  font-size: 16px;
+  font-family: "brandon-grotesque", sans-serif;
+  color: rgb(80, 65, 57);
+}
+
+#inspi2 p{
+  text-align: center;
+  font-size: 16px;
+  font-family: "brandon-grotesque", sans-serif;
+  color: rgb(80, 65, 57);
+}
+
+.container a{
+  text-align: center;
+  font-size: 12px;
+  font-family: "brandon-grotesque", sans-serif;
+  padding-bottom: 30px;
+  color: rgb(80, 65, 57);
+  font-style: bold;
 }
 
 .jubilee{
@@ -208,6 +259,19 @@ section{
   align-items: center;
 }
 
+.posters .header-one{
+  font-family: 'Allura', normal;
+  font-weight: lighter;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.posters .header-two{
+  font-family: "brandon-grotesque", sans-serif;
+  font-size: 40px;
+  font-weight: lighter;
+}
+
 .posters button{
   background-color: #dce6e3;
   border: 1px solid #504139;
@@ -219,6 +283,7 @@ section{
   display: inline-block;
   font-size: 12px;
   font-style: bold;
+  font-weight: normal;
   font-family: "brandon-grotesque", sans-serif;
   transition: 0.3s;
 }
@@ -231,7 +296,7 @@ section{
 footer{
   text-align: center;
     padding: 3px;
-    background-color: #5b3c11;
+    background-color: rgb(80, 65, 57);
     color: white;
     font-family: "brandon-grotesque", sans-serif;
 }
