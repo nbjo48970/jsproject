@@ -104,14 +104,14 @@ body{
 
 .input {
   width: 26.75rem;
-  padding: 4px 20px;
+  padding: 4px 20px 4px 40px;
   margin: 8px 0;
   display: inline-block;
   border: none;
   background-color: rgba(249,247,240, 1);
   border-radius: 4px;
   box-sizing: border-box;
-  background-image: url(content/8R4FnVrOi2.png);
+  background-image: url(content/searchicon.png);
   /* background-position: 10px 10px; */
   background-repeat: no-repeat;
   background-size: contain;
