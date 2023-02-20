@@ -8,7 +8,7 @@ body{
   background-color: #fffef8;
 }
 
-header{
+.header-container{
   min-height: 85vh;
   background-image: url("content/sostrene-grene_spring-feelings_5.png");
   display: flex;
@@ -21,7 +21,7 @@ header{
   text-align: center;
 }
 
-header h2{
+.header-container h2{
   font-family: "brandon-grotesque", sans-serif;
   font-weight: 400;
   font-size: 70px;
@@ -30,7 +30,7 @@ header h2{
   text-align: center;
 }
 
-header h4{
+.header-container h4{
   font-family: 'Allura', cursive;
   color: #fffef8;
   font-size: 60px;
@@ -46,8 +46,29 @@ button{
   text-align: left;
   text-decoration: none;
   display: inline-block;
-  font-size: 10px;
+  font-size: 14px;
   font-weight: bold;
+  font-family: "brandon-grotesque", sans-serif;
+}
+
+.nav-list {
+  display: none;
+  flex-direction: row;
+  grid-gap: 3rem;
+  justify-content: end;
+}
+
+.main-header-inner {
+  display: flex;
+  flex-direction: row;
+  padding: 0.25rem;
+  padding-right: 12%;
+  padding-left: 12%;
+  justify-content: space-between;
+  font-family: var(--ff-body);
+  font-size: var(--fs-sm0l);
+  color: var(--clr-white);
+  text-decoration: none;
 }
 
 .container{
