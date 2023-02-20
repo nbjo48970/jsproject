@@ -273,6 +273,18 @@ section{
   color: #fffef8;
 }
 
+.ramme{
+  background-image: url("content/blade_background.png");
+  margin: 210px;
+  padding: 280px;
+}
+
+.nyheder{
+  background-color: #fffef8;
+  margin: 0px;
+  padding: 80px;
+}
+
 footer{
   text-align: center;
     padding: 3px;
