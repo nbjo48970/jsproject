@@ -23,12 +23,12 @@ header{
 header h3{
   font-family: "brandon-grotesque", sans-serif;
   font-weight: 400;
-  font-size: 55px;
+  font-size: 70px;
   font-style: normal;
   color: rgb(255, 254, 248);
 }
 
-header h4 {
+header h4{
   font-family: 'Allura', cursive;
   color: rgb(255, 254, 248);
 }
