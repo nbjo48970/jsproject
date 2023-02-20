@@ -60,16 +60,17 @@ body{
   display: flex;
   flex-direction: row;
   grid-gap: 3rem;
+  text-decoration: none;
+  justify-content: flex-start;
 }
 
 .main-header-inner {
   height: 3.75rem;
   display: flex;
   flex-direction: row;
-  padding: 0.25rem;
+  padding: 1rem;
   padding-right: 12%;
   padding-left: 12%;
-  justify-content: space-between;
   text-decoration: none;
 }
 
@@ -87,6 +88,18 @@ body{
   padding: .5rem;
 }
 
+.socials {
+  display: flex;
+  justify-content: center;
+  grid-gap: .5rem;
+  padding: 0;
+
+}
+
+.icon {
+  width: 2rem;
+}
+
 section{
   padding: 80px 0;
 }
@@ -98,7 +111,6 @@ section{
   max-width: 70.5rem;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
 }
 
 .products{
