@@ -41,19 +41,20 @@ body{
 .selection-button{
   background-color: white;
   border: none;
-  color: black;
-  padding: 15px 32px;
+  color: #504139;
+  padding: 15px 62px 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 14px;
+  letter-spacing: -.4px;
   font-weight: bold;
   font-family: "brandon-grotesque", sans-serif;
-  transition: 0.3s;
+  transition: 200ms;
 }
 
 .selection-button:hover{
-  background-color: #eae5cf;
+  background-color: #ebe7d2;
 }
 
 .nav-list {
