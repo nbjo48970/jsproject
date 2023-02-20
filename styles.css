@@ -3,8 +3,8 @@ body{
 }
 
 header{
-  min-height: 100vh;
-  background-image: url("img/profil.jpg");
+  min-height: 85vh;
+  background-image: url("content/sostrene-grene_spring-feelings_5.png");
   display: flex;
   justify-content: center;
   background-attachment: fixed;
@@ -16,4 +16,9 @@ header{
   font-weight: 400;
   font-size: 70px;
   font-style: normal;
+  color: rgb(255, 254, 248);
+}
+
+header h4{
+
 }
