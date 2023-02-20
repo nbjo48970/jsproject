@@ -132,6 +132,10 @@ section{
   align-items: center;
   text-align: center;
   color: rgb(80, 65, 57);
+  padding-bottom: 80px;
+padding-left: 40px;
+padding-right: 40px;
+padding-top: 40px;
 }
 
 .jubilee p{
