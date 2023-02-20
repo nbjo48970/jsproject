@@ -134,6 +134,9 @@ padding-top: 40px;
   line-height: 36px;
 }
 
-.jubilee img{
-  height: 201px;
-}
+footer{
+  text-align: center;
+    padding: 3px;
+    background-color: #5b3c11;
+    color: white;
+    font-family: "brandon-grotesque", sans-serif;
