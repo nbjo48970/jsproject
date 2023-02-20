@@ -82,7 +82,12 @@ button{
   background-color: #fffef8;
 }
 
+.products img{
+  height: 321px;
+}
+
 .separate{
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
