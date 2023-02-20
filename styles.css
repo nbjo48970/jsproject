@@ -147,14 +147,28 @@ section{
 }
 
 .inspiration img{
-  height: 192px;
+  height: 210px;
 }
 
 .inspiration p{
   text-align: center;
-  font-size: 14px;
-  font-style: bold;
+  font-size: 12px;
   font-family: "brandon-grotesque", sans-serif;
+  padding-bottom: 30px;
+}
+
+#inspi p{
+  text-align: center;
+  font-size: 16px;
+  font-family: "brandon-grotesque", sans-serif;
+  padding-bottom: 30px;
+}
+
+#inspi2 p{
+  text-align: center;
+  font-size: 16px;
+  font-family: "brandon-grotesque", sans-serif;
+  padding-bottom: 30px;
 }
 
 .jubilee{
