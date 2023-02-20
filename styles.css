@@ -130,6 +130,15 @@ section{
   height: 201px;
 }
 
+.jubilee p{
+  font-family: "canada-type-gibson", sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: -0.1px;
+  line-height: 36px;
+}
+
 .txtjubilee{
   width: 70%;
   padding-top: 40px;
