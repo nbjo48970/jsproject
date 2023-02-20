@@ -60,17 +60,16 @@ body{
   display: flex;
   flex-direction: row;
   grid-gap: 3rem;
-  text-decoration: none;
-  justify-content: flex-start;
 }
 
 .main-header-inner {
   height: 3.75rem;
   display: flex;
   flex-direction: row;
-  padding: 1rem;
+  padding: 0.25rem;
   padding-right: 12%;
   padding-left: 12%;
+  justify-content: space-between;
   text-decoration: none;
 }
 
@@ -86,31 +85,6 @@ body{
   display: inline-block;
   width: 10rem;
   padding: .5rem;
-}
-
-.socials {
-  display: flex;
-  justify-content: center;
-  grid-gap: .5rem;
-  padding: 0;
-
-}
-
-.icon {
-  width: 2rem;
-}
-
-.footer-content {
-  background-color: #010003;
-  margin: 0;
-  padding: 2rem;
-}
-
-.footer-logo {
-  display: inline-block;
-  margin-inline: auto;
-  width: 5rem;
-
 }
 
 section{
@@ -141,30 +115,35 @@ section{
 
 .jubilee{
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: rgb(80, 65, 57);
-  padding-bottom: 80px;
-padding-left: 40px;
-padding-right: 40px;
-padding-top: 40px;
 }
 
-.jubilee p{
-  font-family: "canada-type-gibson", sans-serif;
-  font-size: 24px;
-  font-weight: 300;
-  font-style: normal;
-  letter-spacing: -0.1px;
-  line-height: 36px;
+.jubilee img{
+  height: 201px;
 }
 
-footer{
+.posters{
+  background-color: #dce6e3;
   text-align: center;
-    padding: 3px;
-    background-color: #5b3c11;
-    color: white;
-    font-family: "brandon-grotesque", sans-serif;
+  align-items: center;
+}
+
+.posters h2{
+  margin-bottom: 10px;
+}
+
+.posters button{
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "brandon-grotesque", sans-serif;
+  transition: 0.3s;
 }
