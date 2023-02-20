@@ -38,7 +38,7 @@ body{
   text-align: center;
 }
 
-button{
+.selection-button{
   background-color: white;
   border: none;
   color: black;
