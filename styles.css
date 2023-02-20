@@ -63,7 +63,11 @@ body{
   grid-gap: 3rem;
   text-decoration: none;
   list-style: none;
-  justify-content: center;
+}
+
+.main-navigation {
+  text-decoration: none;
+  list-style: none;
 }
 
 .main-header-inner {
@@ -74,15 +78,17 @@ body{
   padding-right: 6%;
   padding-left: 6%;
   justify-content: space-between;
+  align-items: center;
 
 }
 
 .nav-list a {
   list-style: none;
+  text-decoration: none;
   justify-content: space-between;
-  font-family: var(--ff-body);
-  font-size: var(--fs-sm0l);
-  color: var(--clr-white);
+  font-family: "brandon-grotesque", sans-serif;
+  font-size: .8125rem;
+  color: #504139;
 }
 
 .logo {
