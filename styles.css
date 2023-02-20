@@ -106,7 +106,7 @@ section{
   color: rgb(80, 65, 57);
   font-family: "canada-type-gibson", sans-serif;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .products img{
@@ -124,6 +124,7 @@ section{
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 40px;
+  margin: 0 200px;
 }
 
 .jubilee img{
@@ -141,7 +142,7 @@ section{
 
 .txtjubilee{
   width: 70%;
-  padding-top: 40px;
+  padding-top: 80px;
 }
 
 footer{
