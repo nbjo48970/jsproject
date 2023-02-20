@@ -26,13 +26,13 @@ header h2{
   font-weight: 400;
   font-size: 70px;
   font-style: normal;
-  color: rgb(255, 254, 248);
+  color: #fffef8;
   text-align: center;
 }
 
 header h4{
   font-family: 'Allura', cursive;
-  color: rgb(255, 254, 248);
+  color: #fffef8;
   font-size: 60px;
   transform: rotate(-6deg);
   text-align: center;
@@ -48,4 +48,20 @@ button{
   display: inline-block;
   font-size: 10px;
   font-weight: bold;
+}
+
+.container{
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  max-width: 70.5rem;
+}
+
+.products{
+  background-color: #fffef8;
+}
+
+.separate{
+  flex-direction: row;
+  justify-content: space-between;
 }
