@@ -12,6 +12,7 @@ body{
   min-height: 85vh;
   background-image: url("content/sostrene-grene_spring-feelings_5.png");
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-attachment: fixed;
@@ -19,6 +20,12 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
+}
+
+.header-innercontainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 200px;
 }
 
 .header-container h2{
@@ -38,19 +45,32 @@ body{
   text-align: center;
 }
 
+.selection-button-container {
+  display: flex;
+  justify-content: center;
+}
+
 .selection-button{
+  display: flex;
   background-color: white;
   border: none;
   color: #504139;
-  padding: 15px 62px 15px 32px;
+  padding: 15px 22px 15px 32px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 14px;
   letter-spacing: -.4px;
   font-weight: bold;
   font-family: "brandon-grotesque", sans-serif;
   transition: 200ms;
+  align-items: center;
+  gap: 30px;
+  border-radius: 2px;
+  margin-top: 50px;
+}
+
+.selection-button-container img {
+  height: 35px;
 }
 
 .selection-button:hover{
