@@ -60,6 +60,8 @@ body{
   display: flex;
   flex-direction: row;
   grid-gap: 3rem;
+  text-decoration: none;
+  list-style: none;
 }
 
 .main-header-inner {
@@ -70,11 +72,11 @@ body{
   padding-right: 12%;
   padding-left: 12%;
   justify-content: space-between;
-  text-decoration: none;
+
 }
 
 .nav-list a {
-  text-decoration: none;
+  list-style: none;
   justify-content: space-between;
   font-family: var(--ff-body);
   font-size: var(--fs-sm0l);
@@ -85,6 +87,20 @@ body{
   display: inline-block;
   width: 10rem;
   padding: .5rem;
+  text-decoration: none;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  grid-gap: .5rem;
+  padding: 0;
+  decoration: none;
+  list-style: none;
+}
+
+.icon {
+  width: 2rem;
 }
 
 section{
