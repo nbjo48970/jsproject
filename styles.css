@@ -123,6 +123,7 @@ section{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding-bottom: 30px;
 }
 
 .products{
@@ -154,21 +155,31 @@ section{
   text-align: center;
   font-size: 12px;
   font-family: "brandon-grotesque", sans-serif;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
+  color: rgb(80, 65, 57);
 }
 
 #inspi p{
   text-align: center;
   font-size: 16px;
   font-family: "brandon-grotesque", sans-serif;
-  padding-bottom: 30px;
+  color: rgb(80, 65, 57);
 }
 
 #inspi2 p{
   text-align: center;
   font-size: 16px;
   font-family: "brandon-grotesque", sans-serif;
+  color: rgb(80, 65, 57);
+}
+
+.container a{
+  text-align: center;
+  font-size: 12px;
+  font-family: "brandon-grotesque", sans-serif;
   padding-bottom: 30px;
+  color: rgb(80, 65, 57);
+  font-style: bold;
 }
 
 .jubilee{
