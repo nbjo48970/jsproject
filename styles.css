@@ -118,6 +118,7 @@ section{
   justify-content: center;
   align-items: center;
   text-align: center;
+  flex-direction: column;
   color: rgb(80, 65, 57);
   padding-bottom: 80px;
   padding-left: 40px;
@@ -129,12 +130,9 @@ section{
   height: 201px;
 }
 
-.jubilee img{
-  height: 201px;
-}
-
 .txtjubilee{
   width: 70%;
+  padding-top: 40px;
 }
 
 footer{
