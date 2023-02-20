@@ -115,9 +115,19 @@ section{
 
 .jubilee{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
+  color: rgb(80, 65, 57);
+}
+
+.jubilee p{
+  font-family: "canada-type-gibson", sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: -0.1px;
+  line-height: 36px;
 }
 
 .jubilee img{
