@@ -49,27 +49,42 @@ body{
   font-size: 14px;
   font-weight: bold;
   font-family: "brandon-grotesque", sans-serif;
-  box-shadow: -1px -1px 2px #636363;
+  transition: 0.3s;
+}
+
+.selection-button:hover{
+  background-color: #eae5cf;
 }
 
 .nav-list {
-  display: none;
+  display: flex;
   flex-direction: row;
   grid-gap: 3rem;
-  justify-content: end;
 }
 
 .main-header-inner {
+  height: 3.75rem;
   display: flex;
   flex-direction: row;
   padding: 0.25rem;
   padding-right: 12%;
   padding-left: 12%;
   justify-content: space-between;
+  text-decoration: none;
+}
+
+.nav-list a {
+  text-decoration: none;
+  justify-content: space-between;
   font-family: var(--ff-body);
   font-size: var(--fs-sm0l);
   color: var(--clr-white);
-  text-decoration: none;
+}
+
+.logo {
+  display: inline-block;
+  width: 10rem;
+  padding: .5rem;
 }
 
 section{
