@@ -147,9 +147,9 @@ section{
   text-align: center;
   color: rgb(80, 65, 57);
   padding-bottom: 80px;
-padding-left: 40px;
-padding-right: 40px;
-padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 40px;
 }
 
 .jubilee p{
@@ -159,6 +159,14 @@ padding-top: 40px;
   font-style: normal;
   letter-spacing: -0.1px;
   line-height: 36px;
+}
+
+.jubilee img{
+  height: 201px;
+}
+
+.txtjubilee{
+  width: 70%;
 }
 
 footer{
