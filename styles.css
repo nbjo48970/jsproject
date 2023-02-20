@@ -41,25 +41,33 @@ body{
 .selection-button{
   background-color: white;
   border: none;
-  color: black;
-  padding: 15px 32px;
+  color: #504139;
+  padding: 15px 62px 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 14px;
+  letter-spacing: -.4px;
   font-weight: bold;
   font-family: "brandon-grotesque", sans-serif;
-  transition: 0.3s;
+  transition: 200ms;
 }
 
 .selection-button:hover{
-  background-color: #eae5cf;
+  background-color: #ebe7d2;
 }
 
 .nav-list {
   display: flex;
   flex-direction: row;
   grid-gap: 3rem;
+  text-decoration: none;
+  list-style: none;
+}
+
+.main-navigation {
+  text-decoration: none;
+  list-style: none;
 }
 
 .main-header-inner {
@@ -67,24 +75,40 @@ body{
   display: flex;
   flex-direction: row;
   padding: 0.25rem;
-  padding-right: 12%;
-  padding-left: 12%;
+  padding-right: 6%;
+  padding-left: 6%;
   justify-content: space-between;
-  text-decoration: none;
+  align-items: center;
+
 }
 
 .nav-list a {
+  list-style: none;
   text-decoration: none;
   justify-content: space-between;
-  font-family: var(--ff-body);
-  font-size: var(--fs-sm0l);
-  color: var(--clr-white);
+  font-family: "brandon-grotesque", sans-serif;
+  font-size: .8125rem;
+  color: #504139;
 }
 
 .logo {
   display: inline-block;
   width: 10rem;
   padding: .5rem;
+  text-decoration: none;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  grid-gap: .5rem;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+.icon {
+  width: 2rem;
 }
 
 section{
@@ -106,7 +130,7 @@ section{
   color: rgb(80, 65, 57);
   font-family: "canada-type-gibson", sans-serif;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .products img{
@@ -118,10 +142,50 @@ section{
   justify-content: center;
   align-items: center;
   text-align: center;
+  flex-direction: column;
+  color: rgb(80, 65, 57);
+  padding-bottom: 80px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 40px;
+  margin: 0 200px;
 }
 
 .jubilee img{
   height: 201px;
+}
+
+.jubilee p{
+  font-family: "canada-type-gibson", sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: -0.1px;
+  line-height: 36px;
+}
+
+.txtjubilee{
+  width: 70%;
+  padding-top: 80px;
+}
+
+.jubilee-button{
+  background-color: #fffef8;
+  color: rgb(80, 65, 57);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  font-style: bold;
+  font-family: "brandon-grotesque", sans-serif;
+  transition: 0.3s;
+  border: 1px solid rgb(80, 65, 57);
+}
+
+.jubilee-button:hover{
+  background-color: rgb(80, 65, 57);
+  color: #fffef8;
 }
 
 .posters{
@@ -130,20 +194,30 @@ section{
   align-items: center;
 }
 
-.posters h2{
-  margin-bottom: 10px;
-}
-
 .posters button{
-  background-color: white;
-  border: none;
-  color: black;
+  background-color: #dce6e3;
+  border: 1px solid #504139;
+  color: #504139;
   padding: 15px 32px;
+  margin-top: 50px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 14px;
-  font-weight: bold;
+  font-size: 12px;
+  font-style: bold;
   font-family: "brandon-grotesque", sans-serif;
   transition: 0.3s;
+}
+
+.posters button:hover{
+  background-color: #504139;
+  color: #fffef8;
+}
+
+footer{
+  text-align: center;
+    padding: 3px;
+    background-color: #5b3c11;
+    color: white;
+    font-family: "brandon-grotesque", sans-serif;
 }
