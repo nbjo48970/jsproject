@@ -183,6 +183,32 @@ section{
   color: #fffef8;
 }
 
+.posters{
+  background-color: #dce6e3;
+  text-align: center;
+  align-items: center;
+}
+
+.posters button{
+  background-color: #dce6e3;
+  border: 1px solid #504139;
+  color: #504139;
+  padding: 15px 32px;
+  margin-top: 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "brandon-grotesque", sans-serif;
+  transition: 0.3s;
+}
+
+.posters button:hover{
+  background-color: #504139;
+  color: #fffef8;
+}
+
 footer{
   text-align: center;
     padding: 3px;
