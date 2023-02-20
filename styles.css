@@ -113,6 +113,13 @@ section{
   height: 321px;
 }
 
+.jubilee{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 .jubilee img{
   height: 201px;
 }
