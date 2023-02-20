@@ -37,3 +37,15 @@ header h4{
   transform: rotate(-6deg);
   text-align: center;
 }
+
+button{
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  font-weight: bold;
+}
