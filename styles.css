@@ -122,7 +122,7 @@ section{
   color: rgb(80, 65, 57);
   font-family: "canada-type-gibson", sans-serif;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .products img{
@@ -134,23 +134,51 @@ section{
   justify-content: center;
   align-items: center;
   text-align: center;
+  flex-direction: column;
   color: rgb(80, 65, 57);
   padding-bottom: 80px;
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 40px;
+  margin: 0 200px;
 }
 
 .jubilee img{
   height: 201px;
 }
 
-.jubilee img{
-  height: 201px;
+.jubilee p{
+  font-family: "canada-type-gibson", sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: -0.1px;
+  line-height: 36px;
 }
 
 .txtjubilee{
   width: 70%;
+  padding-top: 80px;
+}
+
+.jubilee-button{
+  background-color: #fffef8;
+  border: none;
+  color: rgb(80, 65, 57);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  font-style: bold;
+  font-family: "brandon-grotesque", sans-serif;
+  transition: 0.3s;
+  border: 1px solid rgb(80, 65, 57);
+}
+
+.jubilee-button:hover{
+  background-color: rgb(80, 65, 57);
+  color: #fffef8;
 }
 
 footer{
