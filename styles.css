@@ -46,8 +46,9 @@ button{
   text-align: left;
   text-decoration: none;
   display: inline-block;
-  font-size: 10px;
+  font-size: 14px;
   font-weight: bold;
+  font-family: "brandon-grotesque", sans-serif;
 }
 
 .nav-list {
