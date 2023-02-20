@@ -294,16 +294,29 @@ section{
 }
 
 .ramme{
-  background-image: url("content/blade_background.png");
-  margin: 210px;
-  padding: 280px;
+  /* background-image: url("content/blade_background.png"); */
+  /* margin: 210px; */
+  /* padding: 280px; */
+  /* height: 200px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-image: url("content/blade_background.png") 30% round;
+  border-image-width: 30px;
+  border-image-repeat: stretch;
+
 }
 
-.nyheder{
+/* .nyheder{
   background-color: #fffef8;
-  margin: 0px;
-  padding: 80px;
-}
+  padding: 200px 575px;
+  height: 500px;
+  width: 800px;
+} */
+
+/* .nyheder img{
+  height: 100px;
+} */
 
 footer{
   text-align: center;
