@@ -104,6 +104,7 @@ section{
 .products{
   background-color: #fffef8;
   color: rgb(80, 65, 57);
+  font-family: "canada-type-gibson", sans-serif;
   font-size: 16px;
   font-weight: 500;
 }
