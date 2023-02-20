@@ -131,6 +131,26 @@ section{
   height: 321px;
 }
 
+.inspiration{
+  background-color: #fffef8;
+  color: rgb(80, 65, 57);
+  font-family: "canada-type-gibson", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.inspiration img{
+  height: 192px;
+}
+
+.inspiration p{
+  text-align: center;
+  font-size: 14px;
+  font-style: bold;
+  font-family: "brandon-grotesque", sans-serif;
+}
+
 .jubilee{
   display: flex;
   justify-content: center;
