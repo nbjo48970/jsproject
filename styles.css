@@ -207,14 +207,15 @@ section{
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  column-gap: 1.4rem;
   padding-bottom: 30px;
 }
 
 .products-containers {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 13px;
 }
 
 .products-zoom-containers {
@@ -238,6 +239,15 @@ section{
 
 .products img:hover {
   transform: scale(1);
+}
+
+.products-containers-text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.products-containers-text p:nth-child(2) {
+  font-weight: 200;
 }
 
 .inspiration{
