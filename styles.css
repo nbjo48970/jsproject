@@ -52,6 +52,7 @@ body{
 
 .selection-button{
   display: flex;
+  white-space: nowrap;
   background-color: white;
   border: none;
   color: #504139;
