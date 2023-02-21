@@ -188,6 +188,7 @@ body{
   border: none;
   bottom: 2.25rem;
   right: 6.25rem;
+  -webkit-appearance: none;
 
 }
 
