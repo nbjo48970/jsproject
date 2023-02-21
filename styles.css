@@ -349,16 +349,6 @@ section{
 
 .frame{
   background-image: url("content/blade_background.png");
-  /* display: flex;
-  justify-content: center;
-  align-items: center;
-  background-position: center;
-  /* background-repeat: no-repeat; */
-  /* text-align: center;
-  width: 800px; */
-  /* border: 50px solid;
-  border-image-source: url('content/blade_background.png');
-  border-image-slice: 100; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -366,17 +356,15 @@ section{
   margin-right: auto;
   width: 90%;
   height: 500px;
-  /* max-width: 70.5rem; */
-
 }
 
 .news{
   background-color: #fffef8;
   text-align: center;
-  /* margin-left: auto;
-  margin-right: auto; */
-  /* width: 90%;
-  max-width: 70.5rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .news h5{
@@ -384,7 +372,10 @@ section{
   font-size: 30px;
   font-weight: 400;
   color: rgb(80, 65, 57);
+}
 
+.news img{
+  height: 104px;
 }
 
 form.example input[type=text] {
@@ -407,7 +398,7 @@ form.example button {
   font-style: normal;
   font-variant-caps: normal;
   font-weight: 400;
-  border: none; /* Prevent double borders */
+  border: none;
   cursor: pointer;
 }
 
@@ -422,6 +413,9 @@ form.example::after {
 }
 
 .check {
+  margin-left: 326px;
+  margin-right: 326px;
+
   display: flex;
   justify-content: center;
   align-content: center;
@@ -436,7 +430,7 @@ form.example::after {
   font-weight: 400;
 }
 
-/* Hide the browser's default checkbox */
+/* Færdig */
 .check input {
   position: absolute;
   opacity: 0;
@@ -445,7 +439,7 @@ form.example::after {
   width: 0;
 }
 
-/* Create a custom checkbox */
+/* Færdig */
 .checkmark {
   position: absolute;
   top: 0;
@@ -456,31 +450,27 @@ form.example::after {
   border: solid 1px rgb(80, 65, 57);
 }
 
-/* When the checkbox is checked, add a blue background */
+/* Færdig */
 .check input:checked ~ .checkmark {
   background-color: rgb(80, 65, 57);
 }
 
-/* Create the checkmark/indicator (hidden when not checked) */
+/* Færdig */
 .checkmark:after {
   content: "";
   position: absolute;
   display: none;
 }
 
-/* Show the checkmark when checked */
+/* Færdig */
 .check input:checked ~ .checkmark:after {
   display: block;
 }
 
-/* Style the checkmark/indicator */
+/* Færdig */
 .check .checkmark:after {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  left: 9px;
-  top: 5px;
+  left: 7px;
+  top: 3px;
   width: 5px;
   height: 10px;
   border: solid white;
