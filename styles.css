@@ -190,9 +190,20 @@ section{
   width: 90%;
   max-width: 70.5rem;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
   padding-bottom: 30px;
+}
+
+.products-containers {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.products-zoom-containers {
+  overflow: hidden;
 }
 
 .products{
@@ -205,6 +216,13 @@ section{
 
 .products img{
   height: 321px;
+  transform: scale(1.08);
+  transition: transform 1000ms ease;
+  vertical-align: middle;
+}
+
+.products img:hover {
+  transform: scale(1);
 }
 
 .inspiration{
