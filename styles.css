@@ -575,3 +575,17 @@ footer{
 .sec{
   padding: 0;
 }
+
+.flex-container {
+  display: flex;
+  background-color: #5b3c11;
+}
+
+.flex-container > div {
+  background-color: #5b3c11;
+  margin: 10px;
+  padding: 20px;
+  font-size: 10px;
+  color: white;
+    font-family: "brandon-grotesque", sans-serif;
+}
