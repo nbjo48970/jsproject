@@ -332,7 +332,7 @@ section{
   display: flex;
   align-items: center;
   justify-content: center;
-  border-image: url("content/blade_background.png") 30% round;
+  border-image-source: url(content/blade_background.png);
   border-image-width: 30px;
   border-image-repeat: stretch;
 
