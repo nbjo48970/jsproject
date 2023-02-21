@@ -380,7 +380,7 @@ section{
   align-items: center;
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
+  width: 72%;
   height: 650px;
 }
 
@@ -395,8 +395,9 @@ section{
   padding-bottom: 50px;
   margin-left: 60px;
   margin-right: 60px;
-  margin-top: 200px;
+  margin-top: 210px;
   margin-bottom: 200px;
+
 }
 
 .news h5{
@@ -449,8 +450,8 @@ form.example::after {
 }
 
 .check {
-  margin-left: 464px;
-  margin-right: 464px;
+  margin-left: 248px;
+  margin-right: 248px;
   display: flex;
   justify-content: center;
   align-content: center;
