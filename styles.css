@@ -328,10 +328,12 @@ section{
   margin-left: auto;
   margin-right: auto;
   width: 79%;
+  height: auto;
   box-sizing: border-box;
   display: grid;
   gap: 1.5rem;
   grid-template-columns: repeat(4, 1fr);
+  font-family: "brandon-grotesque", sans-serif;
 }
 
 .grid-gallery img{
@@ -345,9 +347,13 @@ section{
   grid-column: span 2;
 }
 
+.grid-gallery .pic1{
+  margin-bottom: 50px;
+}
 
-
-
+.grid-gallery .pic3{
+  margin-bottom: 50px;
+}
 
 footer{
   text-align: center;
