@@ -345,30 +345,9 @@ section{
   grid-column: span 2;
 }
 
-.ramme{
-  /* background-image: url("content/blade_background.png"); */
-  /* margin: 210px; */
-  /* padding: 280px; */
-  /* height: 200px; */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-image-source: url(content/blade_background.png);
-  border-image-width: 30px;
-  border-image-repeat: stretch;
 
-}
 
-/* .nyheder{
-  background-color: #fffef8;
-  padding: 200px 575px;
-  height: 500px;
-  width: 800px;
-} */
 
-/* .nyheder img{
-  height: 100px;
-} */
 
 footer{
   text-align: center;
