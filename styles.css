@@ -179,6 +179,22 @@ body{
   --d: 6px;
 }
 
+.button {
+  position: fixed;
+  /* background:url(content/chat-open.png) no-repeat; */
+
+  cursor:pointer;
+  width: 0;
+  border: none;
+  bottom: 2.25rem;
+  right: 6.25rem;
+
+}
+
+#chat-image {
+  width: 3.75rem;
+}
+
 
 section{
   padding: 80px 0;
