@@ -505,7 +505,14 @@ form.example::after {
   transform: rotate(45deg);
 }
 
+.list{
+  background-color: #efebe4;
+  font-family: "brandon-grotesque", sans-serif;
+}
 
+.list p{
+  font-weight: bold;
+}
 
 footer{
   text-align: center;
