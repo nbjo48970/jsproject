@@ -365,6 +365,8 @@ section{
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .news h5{
@@ -378,6 +380,13 @@ section{
   height: 104px;
 }
 
+.news p{
+  font-family: "canada-type-gibson", sans;
+  font-size: 15px;
+  font-weight: 400;
+  color: #928B86;
+}
+
 form.example input[type=text] {
   font-size: 17px;
   float: left;
@@ -385,6 +394,12 @@ form.example input[type=text] {
   height: 60px;
   background: rgb(249, 247, 240);
   padding-left: 30px;
+  border: none;
+  font-family: "brandon-grotesque", sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-variant-caps: normal;
+  font-weight: 400;
 }
 
 form.example button {
@@ -393,17 +408,8 @@ form.example button {
   height: 60px;
   background: rgb(80, 65, 57);
   color: white;
-  font-family: "brandon-grotesque", sans-serif;
-  font-size: 25px;
-  font-style: normal;
-  font-variant-caps: normal;
-  font-weight: 400;
   border: none;
   cursor: pointer;
-}
-
-form.example button:hover {
-  background: #0b7dda;
 }
 
 form.example::after {
@@ -415,7 +421,6 @@ form.example::after {
 .check {
   margin-left: 326px;
   margin-right: 326px;
-
   display: flex;
   justify-content: center;
   align-content: center;
@@ -428,9 +433,9 @@ form.example::after {
   font-family: "canada-type-gibson", sans;
   font-size: 12px;
   font-weight: 400;
+  color: rgb(80, 65, 57);
 }
 
-/* Færdig */
 .check input {
   position: absolute;
   opacity: 0;
@@ -439,7 +444,6 @@ form.example::after {
   width: 0;
 }
 
-/* Færdig */
 .checkmark {
   position: absolute;
   top: 0;
@@ -450,24 +454,20 @@ form.example::after {
   border: solid 1px rgb(80, 65, 57);
 }
 
-/* Færdig */
 .check input:checked ~ .checkmark {
   background-color: rgb(80, 65, 57);
 }
 
-/* Færdig */
 .checkmark:after {
   content: "";
   position: absolute;
   display: none;
 }
 
-/* Færdig */
 .check input:checked ~ .checkmark:after {
   display: block;
 }
 
-/* Færdig */
 .check .checkmark:after {
   left: 7px;
   top: 3px;
