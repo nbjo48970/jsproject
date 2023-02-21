@@ -325,13 +325,15 @@ section{
 }
 
 .grid-gallery{
-  margin: 0;
-  padding: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 79%;
+  height: auto;
   box-sizing: border-box;
-  max-width: 100%;
   display: grid;
   gap: 1.5rem;
   grid-template-columns: repeat(4, 1fr);
+  font-family: "brandon-grotesque", sans-serif;
 }
 
 .grid-gallery img{
