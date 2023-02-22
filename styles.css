@@ -576,7 +576,7 @@ form.example::after {
 
 .footer-lists li{
   font-weight: lighter;
-  font-family: "canada-type-gibson", sans;
+  font-family: "canada-type-gibson", sans-serif;
 }
 
 .footer-lists a{
@@ -629,16 +629,44 @@ footer{
   padding: 0;
 }
 
+.main-flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
 .flex-container {
   display: flex;
   background-color: #4F4138;
+  margin-top: 20px;
+  
+}
+
+.flex-container span {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  letter-spacing: -.4px;
+  font-size: 0.85rem;
+  font-family: "brandon-grotesque", sans-serif;
+  font-weight: 600;
 }
 
 .flex-container > div {
   background-color: #4F4138;
-  margin: 10px;
+  margin: 10px 50px;
   padding: 20px;
-  font-size: 10px;
+  font-size: 1rem;
   color: white;
-    font-family: "brandon-grotesque", sans-serif;
+  font-family: "canada-type-gibson", sans-serif;
+  text-align: left;
+  font-weight: 100;
+}
+
+.flex-container p {
+  padding-bottom: 25px;
+}
+
+.flex-container li {
+  list-style: none;
+  padding-bottom: 12px;
 }
