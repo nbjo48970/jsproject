@@ -555,6 +555,17 @@ form.example::after {
   transform: rotate(45deg);
 }
 
+#email-error{
+  width: 100%;
+  position: relative;
+  float: left;
+  text-align: left;
+  font-family: "canada-type-gibson", sans;
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(80, 65, 57);
+}
+
 .lists-img{
   padding: 0px;
 }

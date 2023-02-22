@@ -183,7 +183,8 @@
           <img src="content/sistersletter-brown-hm.png" alt=""> <br>
           <h5>MODTAG VORES <br> NYHEDSBREV</h5> <br>
           <form name="form1" class="example" action="#">
-            <input type="text" placeholder="Deres e-mailadresse" name="text1">
+            <span id="email-error"></span> <br>
+            <input type="text" placeholder="Deres e-mailadresse" name="text1" onclick="kjl">
             <button type="submit" onclick="return ValidateEmail(document.form1.text1)"><i class="fa-solid fa-chevron-right"></i></i></button>
           </form> <br>
           <label class="check">Ja, send meddelelser med inspiration, kampagner, produkter, begivenheder samt kundeundersøgelser. Ved at acceptere, vil De modtage indhold og anbefalinger, tilpasset Dem via e-mail og sms (samt evt. Facebook, Instagram, Google, Youtube og Pinterest). De kan til enhver tid ændre Deres præferencer eller afmelde Dem. Læs Persondatapolitik.
