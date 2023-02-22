@@ -22,14 +22,14 @@ function ValidateEmail(input)
   }
 }
 
-function RegisteredUsers(input){
-
-let regUsers = ["pede@gmail.com", "thomas@mail.dk", "nicoline@mail.com"];
-
-  if (input.value.match(regUsers)){
-    emailError.innerHTML = "Din e-mailadresse er allerede registreret";
-    document.form1.text1.focus();
-    return true;
-  }
-  return false;
-}
+// function RegisteredUsers(input){
+//
+//   let regUsers = ["pede@gmail.com", "thomas@mail.dk", "nicoline@mail.com"];
+//
+//   if (input.value.match(regUsers)){
+//     emailError.innerHTML = "ost";
+//     document.form1.text1.focus();
+//     return true;
+//   }
+//   return false;
+// }
