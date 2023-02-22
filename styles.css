@@ -606,11 +606,6 @@ form.example::after {
 }
 
 
-.marcus-footer {
-  display: flex;
-
-}
-
 .footer-app {
   display: flex;
 }
@@ -671,6 +666,35 @@ footer{
 .flex-container li {
   list-style: none;
   padding-bottom: 12px;
+}
+
+.footer-app-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+#iphone {
+  margin-right: 1rem;
+}
+
+#app-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 12rem;
+  gap: 10px;
+  font-size: 0.95rem;
+  font-weight: 100;
+  text-align: center;
+  margin-right: 7rem;
+}
+
+#app-buttons img {
+  width: 70%;
+  vertical-align: middle;
 }
 
 .xander-footer {
