@@ -672,11 +672,15 @@ footer{
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 5rem;
+  gap: 3rem;
 }
 
 #iphone {
   margin-right: 1rem;
+}
+
+#iphone img {
+  width: 10rem;
 }
 
 #app-buttons {
@@ -689,7 +693,7 @@ footer{
   font-size: 0.95rem;
   font-weight: 100;
   text-align: center;
-  margin-right: 7rem;
+  margin-right: 10rem;
 }
 
 #app-buttons img {
