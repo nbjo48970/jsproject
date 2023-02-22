@@ -555,11 +555,15 @@ form.example::after {
   transform: rotate(45deg);
 }
 
+.lists-img{
+  padding: 0px;
+}
+
 .footer-lists{
   background-color: #efebe4;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding: 5% 10% 10% 15%;
+  padding: 5% 10% 5% 15%;
 }
 
 .footer-lists ul{
@@ -596,12 +600,13 @@ form.example::after {
   height: auto;
   padding-left: 5%;
   padding-right: 5%;
+  padding-bottom: 0px;
 }
 
 
 .marcus-footer {
   display: flex;
-  margin: 60px 132px 33px 132px;
+
 }
 
 .footer-app {
