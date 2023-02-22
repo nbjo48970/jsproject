@@ -565,7 +565,7 @@ form.example::after {
   background-color: #efebe4;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding: 5% 10% 5zz% 15%;
+  padding: 5% 10% 5% 15%;
 }
 
 .footer-lists ul{
