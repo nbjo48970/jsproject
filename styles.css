@@ -704,12 +704,17 @@ footer{
   font-size: 0.95rem;
   font-weight: 100;
   text-align: center;
-  margin-right: 10rem;
+  font-family: "canada-type-gibson", sans-serif;
+  margin-right: 4rem;
 }
 
 #app-buttons img {
   width: 70%;
   vertical-align: middle;
+}
+
+#app-buttons p {
+  padding-bottom: 2rem;
 }
 
 .xander-footer {
@@ -721,6 +726,8 @@ footer{
   display: flex;
   justify-content: center;
   flex-direction: column;
+  border-left: solid 1px rgba(183, 177, 170, 0.5);
+  padding-left: 9rem;
 }
 
 .main-footer {
@@ -758,4 +765,37 @@ footer{
   font-weight: 200;
   font-size: .90rem;
   margin-top: 2.5rem;
+}
+
+.copyright p {
+  color: #b7b1aa;
+  margin: 7px 11px 5rem;
+  font-family: "canada-type-gibson", sans-serif;
+  font-weight: 200;
+  font-size: 0.85rem;
+}
+
+.copyright img {
+  width: 11rem;
+}
+
+.country {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+  font-family: "canada-type-gibson", sans-serif;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+.country span {
+  text-decoration: underline;
+  padding-bottom: 20px;
+}
+
+.country img {
+  width: 30px;
 }
