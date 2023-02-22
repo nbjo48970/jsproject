@@ -162,7 +162,7 @@ body{
 }
 
 .socials a {
-  padding-top: 26px;
+  padding-top: 31px;
 }
 
 .icon {
@@ -555,18 +555,58 @@ form.example::after {
   transform: rotate(45deg);
 }
 
-.list{
+.lists-img{
+  padding: 0px;
+}
+
+.footer-lists{
   background-color: #efebe4;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 5% 10% 5% 15%;
+}
+
+.footer-lists ul{
+  list-style-type: none;
+  column-count: 2;
+  column-gap: 20px;
+  margin-top: 20px;
+  line-height: 30px;
+}
+
+.footer-lists li{
+  font-weight: lighter;
+  font-family: "canada-type-gibson", sans;
+}
+
+.footer-lists a{
+  text-decoration: none;
+  color: #504139;
+}
+
+.footer-lists p{
+  font-size: 12px;
+  font-weight: 700;
+  color: #504139;
   font-family: "brandon-grotesque", sans-serif;
 }
 
-.list p{
-  font-weight: bold;
+.footer-img{
+  background-color: #efebe4;
 }
+
+.footer-img img{
+  width: 100%;
+  height: auto;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 0px;
+}
+
 
 .marcus-footer {
   display: flex;
-  margin: 60px 132px 33px 132px;
+
 }
 
 .footer-app {
