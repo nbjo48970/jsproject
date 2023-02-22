@@ -674,9 +674,15 @@ footer{
 }
 
 .xander-footer {
-  display: block;
+  display: flex;
   width: 50%;
 
+}
+
+.mod {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .main-footer {
@@ -689,5 +695,13 @@ footer{
 }
 
 #footburga {
-  width: 10rem;
+  width: 15rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.banana {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 300;
 }
