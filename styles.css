@@ -356,12 +356,14 @@ section{
   font-weight: lighter;
   font-size: 50px;
   margin-bottom: 10px;
+  color: #504139;
 }
 
 .posters .header-two{
   font-family: "brandon-grotesque", sans-serif;
   font-size: 40px;
   font-weight: lighter;
+  color: #504139;
 }
 
 .posters button{
@@ -587,7 +589,7 @@ form.example::after {
 
 .footer-lists li{
   font-weight: lighter;
-  font-family: "canada-type-gibson", sans;
+  font-family: "canada-type-gibson", sans-serif;
 }
 
 .footer-lists a{
@@ -615,11 +617,6 @@ form.example::after {
 }
 
 
-.marcus-footer {
-  display: flex;
-
-}
-
 .footer-app {
   display: flex;
 }
@@ -640,16 +637,125 @@ footer{
   padding: 0;
 }
 
+.main-flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
 .flex-container {
   display: flex;
   background-color: #4F4138;
+  margin-top: 20px;
+
+}
+
+.flex-container span {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  letter-spacing: -.4px;
+  font-size: 0.85rem;
+  font-family: "brandon-grotesque", sans-serif;
+  font-weight: 600;
 }
 
 .flex-container > div {
   background-color: #4F4138;
-  margin: 10px;
+  margin: 10px 50px;
   padding: 20px;
-  font-size: 10px;
+  font-size: 1rem;
   color: white;
-    font-family: "brandon-grotesque", sans-serif;
+  font-family: "canada-type-gibson", sans-serif;
+  text-align: left;
+  font-weight: 100;
+}
+
+.flex-container p {
+  padding-bottom: 25px;
+}
+
+.flex-container li {
+  list-style: none;
+  padding-bottom: 12px;
+}
+
+.footer-app-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+#iphone {
+  margin-right: 1rem;
+}
+
+#iphone img {
+  width: 10rem;
+}
+
+#app-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 12rem;
+  gap: 10px;
+  font-size: 0.95rem;
+  font-weight: 100;
+  text-align: center;
+  margin-right: 10rem;
+}
+
+#app-buttons img {
+  width: 70%;
+  vertical-align: middle;
+}
+
+.xander-footer {
+  display: flex;
+
+}
+
+.mod {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.ANNA-OG-CLARA {
+  width: 17rem;
+  font-family: "canada-type-gibson", sans-serif;
+  font-size: .85rem;
+  font-weight: 200;
+  margin: 1rem;
+}
+
+#footburga {
+  width: 13.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.banana {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+#footletus {
+  text-decoration: none;
+  list-style: none;
+  font-family: "canada-type-gibson", sans-serif;
+  color: white;
+  font-weight: 200;
+  font-size: .90rem;
+  margin-top: 2.5rem;
 }
