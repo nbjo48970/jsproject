@@ -7,6 +7,9 @@
   <link rel="stylesheet" href="styles.css">
   <script src="scripts.js" defer></script>
   <script src="nyhedsbrev.js" defer></script>
+  <script src="BWAKH.js" defer></script>
+
+  </script>
   <link rel="stylesheet" href="https://use.typekit.net/ycv2zet.css">
   <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
@@ -42,10 +45,21 @@
           </div>
     </nav>
     <div>
-      <button type="submit" name="button" class="button">
+      <button type="submit" name="button" class="button" onclick="openForm()">
         <img src="content/chat-open.png" alt="" id="chat-image">
       </button>
+
     </div>
+    <div class="chat-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+
+    <label for="msg"><b>Message</b></label>
+    <textarea placeholder="Type message.." name="msg" required></textarea>
+
+    <button type="submit" class="btn">Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
     <header>
       <div class="header-container">
         <div class="header-innercontainer">
@@ -183,8 +197,7 @@
           <img src="content/sistersletter-brown-hm.png" alt=""> <br>
           <h5>MODTAG VORES <br> NYHEDSBREV</h5> <br>
           <form name="form1" class="example" action="#">
-            <span id="email-error"></span> <br>
-            <input id ="email-input" type="text" placeholder="Deres e-mailadresse" name="text1" onclick="kjl">
+            <input type="text" placeholder="Deres e-mailadresse" name="text1">
             <button type="submit" onclick="return ValidateEmail(document.form1.text1)"><i class="fa-solid fa-chevron-right"></i></i></button>
           </form> <br>
           <label class="check">Ja, send meddelelser med inspiration, kampagner, produkter, begivenheder samt kundeundersøgelser. Ved at acceptere, vil De modtage indhold og anbefalinger, tilpasset Dem via e-mail og sms (samt evt. Facebook, Instagram, Google, Youtube og Pinterest). De kan til enhver tid ændre Deres præferencer eller afmelde Dem. Læs Persondatapolitik.
@@ -324,12 +337,7 @@
   </div>
   </div>
 </div>
-<div class="country">
-  <img src="content/countryicon.png" alt="">
-  <p>Land: <span>Danmark</span></p>
-</div>
 <div class="copyright">
-  <img src="content/footer-moni-icons.png" alt="">
   <p>Copyright © 2023, Søstrene Grenes Import A/S.</p>
 </div>
 
