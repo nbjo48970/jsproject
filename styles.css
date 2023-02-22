@@ -670,3 +670,22 @@ footer{
   list-style: none;
   padding-bottom: 12px;
 }
+
+.xander-footer {
+  display: block;
+  width: 50%;
+
+}
+
+.main-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.ANNA-OG-CLARA {
+  width: 27.2rem;
+}
+
+#footburga {
+  width: 10rem;
+}
