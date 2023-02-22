@@ -675,7 +675,6 @@ footer{
 
 .xander-footer {
   display: flex;
-  width: 50%;
 
 }
 
@@ -687,7 +686,7 @@ footer{
 
 .main-footer {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .ANNA-OG-CLARA {
