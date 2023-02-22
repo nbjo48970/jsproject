@@ -5,11 +5,6 @@ function ValidateEmail(input)
   let emailError = document.getElementById("email-error");
   let formInput = document.getElementById("email-input");
 
-  // if (input.value.match(regUsers)){
-  //   emailError.innerHTML = "Hej";
-  //   document.form1.text1.focus();
-  //   return true;
-  // }
   if (input.value.match(validRegex)){
     emailError.innerHTML = "Din e-mail er nu registreret";
     emailError.style.color = "green";
@@ -25,15 +20,16 @@ function ValidateEmail(input)
     document.form1.text1.focus();
     return false;
   }
-
 }
 
-let emailError = document.getElementById("email-error");
-let arr = ["pede@gmail.com", "thomas@mail.dk", "nicoline@mail.com"];
+function RegisteredUsers(input){
 
-function Users(input){
-  if (arr.indexOf(input.value) !== -1){
-    alert("welcome");
+let regUsers = ["pede@gmail.com", "thomas@mail.dk", "nicoline@mail.com"];
+
+  if (input.value.match(regUsers)){
+    emailError.innerHTML = "Din e-mailadresse er allerede registreret";
+    document.form1.text1.focus();
     return true;
   }
+  return false;
 }
