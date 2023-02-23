@@ -9,6 +9,7 @@ function ValidateEmail(input)
 
 if (inArray(input.value)) {
   emailError.innerHTML = "Din e-mail er allerede registreret";
+  emailError.style.color = "rgb(80, 65, 57)";
   return false;
 }
   if (input.value.match(validRegex)){
