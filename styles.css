@@ -299,6 +299,7 @@ section{
   display: flex;
   flex-direction: column;
   gap: 13px;
+  position: relative;
 }
 
 .products-zoom-containers {
@@ -327,10 +328,18 @@ section{
 .products-containers-text {
   display: flex;
   justify-content: space-between;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #fffef8;
 }
 
 .products-containers-text p:nth-child(2) {
   font-weight: 200;
+}
+
+#txtPop{
 }
 
 .inspiration{
