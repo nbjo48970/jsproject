@@ -8,9 +8,16 @@ function closeNav() {
 
 // console.log("hi")
 
-let countryArray = ["Sweden", "Finland", "Norway", "Denmark"]
+let countryArray = ["Danmark"]
 let countryPick = document.getElementById("country-pick")
 
 for (let i = 0; i < countryArray.length; i++) {
     countryPick.textContent = countryArray[i]
+}
+
+function suomiPick() {
+    countryArray.push("Suomi")
+    for (let i = 0; i < countryArray.length; i++) {
+        countryPick.textContent = countryArray[i]
+    }
 }
