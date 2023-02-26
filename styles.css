@@ -877,7 +877,7 @@ footer{
   justify-content: center;
   align-items: center;
   gap: 10px;
-  margin: 20px 44rem;
+  margin: 20px 20rem;
   font-family: "canada-type-gibson", sans-serif;
   font-weight: 200;
   letter-spacing: 1px;
@@ -890,4 +890,90 @@ footer{
 
 .country img {
   width: 30px;
+}
+
+.underline {
+  display: inline-block;
+  text-transform: uppercase;
+  color: #504139;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.underline:after {
+  height: 1px;
+  width: 100%;
+  display: block;
+  background-color: currentColor;
+  content: "";
+  margin-top: 2px;
+}
+
+.country-portal {
+  background-color: white;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  transition: 600ms cubic-bezier(.57,.41,.75,1.37);
+}
+
+.portal-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin: 7rem 25rem;
+}
+
+.portal-flex a {
+  text-decoration: none;
+}
+
+.portal-flex img {
+  width: 8rem;
+}
+
+.portal-flex h2 {
+  color: #504139;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.countries-flex {
+  display: flex;
+  flex-wrap: wrap;
+  column-count: 3;
+}
+
+.countries-flex li {
+  width: 33%;
+  margin-top: 10px;
+  padding: 0 10px;
+  list-style: none;
+}
+
+.country-lang p {
+  text-transform: uppercase;
+  color: #504139;
+  font-size: 10px;
+  display: inline;
+  font-family: "canada-type-gibson", sans-serif;
+  font-weight: 100;
+  margin-top: 10px;
+}
+
+.closebtn {
+  position: absolute;
+  top: 15px;
+  right: 25px;
+  font-size: 3rem;
+  color: #504139;
+  font-family: "canada-type-gibson", sans-serif;
+  font-weight: 100;
+  padding: 0 10px;
 }

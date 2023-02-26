@@ -1,7 +1,9 @@
 function openNav() {
-    document.getElementById("country-main").style.width = "250px";
+    document.getElementById("con-portal").style.width = "100vw";
   }
   
 function closeNav() {
-    document.getElementById("country-main").style.width = "0";
+    document.getElementById("con-portal").style.width = "0";
   }
+
+console.log("hi")
