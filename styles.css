@@ -326,8 +326,8 @@ section{
 }
 
 .products-containers-text {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 2;
   padding: 10px;
   position: absolute;
   bottom: 0;
@@ -335,8 +335,22 @@ section{
   background-color: #fffef8;
 }
 
+.hidden-box{
+  display: flex;
+  flex-direction: column;
+}
+
 .products-containers-text p:nth-child(2) {
   font-weight: 200;
+  grid-column-start: 2;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.products-containers-text p:nth-child(3) {
+  font-weight: 200;
+  font-size: 12px;
+  opacity: 0;
 }
 
 /* #txtPop{
